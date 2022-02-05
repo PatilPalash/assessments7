@@ -1,0 +1,202 @@
+.text1{
+    font-size: 32px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    background-image: linear-gradient(
+        90deg,
+        red,
+        green,
+        yellow 
+    );
+}
+ul{
+    position: relative;
+    left: 580px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 5px solid rgb(180, 20, 55);
+    border-radius: 15px;
+    padding: 10px 400px 10px 400px;
+    background-color: rgb(175, 214, 236);
+} 
+b{
+    font-size: 19px;
+    margin-top: 30px;
+}
+#one{
+    border: 3px solid rgb(180, 20, 55);
+    border-radius: 10px;
+    background-color: aquamarine;
+    height: 195px;   
+}
+.one1{
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 35em;
+    margin: 1px 20px 10px 10px;
+    padding: 10px;
+}
+.two2{
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 35em;
+    padding: 10px;
+    position: relative;
+    left: 720px;
+    bottom: 103px;
+}
+.three3{
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 37em;
+    position: relative;
+    left: 1400px;
+    bottom: 197px;
+    padding: 10px;
+}    
+.four4{
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 35em;
+    position: relative;
+    left: 720px;
+    bottom: 195px;
+    padding: 10px;
+}
+.text2{
+    font-size: 32px;
+    margin-top: 20px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline crimson;
+    padding: 0px 0px 20px 0px;
+    background-image: linear-gradient(
+        90deg,
+        red,
+        yellow,
+        red 
+    );
+}
+#box{
+    background-image:radial-gradient(
+        rgb(3, 54, 223),
+        rgb(4, 247, 105)
+    );
+    height: 500px;
+    margin-top: 25px;
+    border: 4px groove green;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    border: 5px solid rgb(163, 0, 41);
+    border-radius: 35px;
+    font-size: 32px;
+    color: rgba(201, 6, 6, 0.822);
+    background-color: rgb(247, 233, 195);
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px;
+    margin: 100px 70px 120px 10px;
+}
+/* .text3{
+    background-color: rgb(250, 2, 56);
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding: 0px 0px 25px 0px;
+    margin-top: 30px;
+} */
+#boss{
+    /* width: 75%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3,1fr)100px;
+    grid-gap: 20px; */
+    display: grid;
+    padding: 0rem;
+    border: 1px solid black;
+    gap: 15px 10px;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 40px;
+}
+.client1{
+    /* background-color: yellow;
+    grid-column: 1/5; */
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: fuchsia;
+    /* padding: 1rem; */
+    padding-bottom: 30px;
+    font-size: 32px;
+    color: white;
+}
+.client2{
+    /* background-color: blue; */
+    background-color: rgb(35, 201, 243);
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 10px 10px 30px;
+}
+.client3{
+    /* background-color: green; */
+    background-color: rgb(35, 201, 243);
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.client4{
+    /* background-color: orangered; */
+    background-color: rgb(14, 24, 167);
+    color: white;
+    font-size: 32px;
+}
+.client5{
+    /* background-color: red;
+    grid-row: 2/4;
+    grid-column: 4/5; */
+    text-align: center;
+    background-color: rgb(23, 26, 22);
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.client6{
+    /* background-color: violet;
+    grid-column: 1/4; */
+    background-color: rgb(197, 119, 46);
+    color: white;
+    font-size: 18px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.client7{
+    text-align: center;
+    background-color: skyblue;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 32px;
+    font-weight: bold;
+}
